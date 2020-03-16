@@ -13,9 +13,9 @@ def find_greater_pair(src)
   row_index = 0
   
   while row_index < src.count do
-    if src src[row_index][0] > src[row_index][1]
+    when src src[row_index][0] > src[row_index][1]
       new_array << src[row_index][0]
-    else
+    when
       new_array << src[row_index][1]
   end  
   return new_array
