@@ -9,8 +9,6 @@ def join_ingredients(src)
 end
 
 def find_greater_pair(src)
-  outer_results = []
-  row_index = 0
   
 end
 
