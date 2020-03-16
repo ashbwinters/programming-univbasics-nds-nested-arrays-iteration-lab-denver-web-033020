@@ -15,8 +15,10 @@ def find_greater_pair(src)
   while row_index < src.count do
     when src src[row_index][0] > src[row_index][1]
       new_array << src[row_index][0]
+    end
     when
       new_array << src[row_index][1]
+    end
   end  
   return new_array
 end
