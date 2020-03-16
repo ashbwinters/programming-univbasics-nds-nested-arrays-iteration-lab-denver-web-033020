@@ -9,9 +9,13 @@ def join_ingredients(src)
 end
 
 def find_greater_pair(src)
+  outer_results = []
+  row_index = 0
   
 end
 
 def total_even_pairs(src)
- 
+  total = 0
+  row_index = 0
+  
 end
